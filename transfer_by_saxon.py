@@ -10,6 +10,7 @@ import saxoncee  # Enterprise Edition (самая крутая и быстрая
 import anthropic  # работа с исходниками
 import openai
 #import pytorch  # пока не ставится
+import pytorch_accelerated
 import torch
 import turbo_alignment
 import ultralytics

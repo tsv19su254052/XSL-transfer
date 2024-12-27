@@ -35,6 +35,8 @@ http://www.datypic.com/xq/functx_index-of-node.html
 
 https://habr.com/ru/articles/22236/ 
 
+https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms256069(v=vs.100)?redirectedfrom=MSDN 
+
 Информация по нейросеткам
 
 https://sysblok.ru/katalog-nejrosetevyh-modelej/ 
