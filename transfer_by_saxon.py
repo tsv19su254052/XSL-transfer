@@ -11,7 +11,7 @@ import anthropic  # работа с исходниками
 import openai
 #import pytorch  # пока не ставится
 import torch
-#import turbo_alignment
+import turbo_alignment
 import ultralytics
 
 
