@@ -18,11 +18,11 @@ if mode == 1:
     with open(xml_output, 'wb') as f:
         St = etree.tostring(result)
         f.write(St)
-        print("Преобразование выполнено")
+        print("Преобразование выполнено способом " + str(mode))
 elif mode == 2:
     dom_by_lxml = etree.parse(config_from_cfg.get(section='FileNames', option='xml_input'))
     xslt = etree.parse(config_from_cfg.get(section='FileNames', option='xsl_filename'))
     transform = etree.XSLT(xslt)
     newdom_by_lxml = transform(dom_by_lxml)
     print(etree.tostring(newdom_by_lxml, pretty_print=True))
-    print("Преобразование выполнено")
+    print("Преобразование выполнено способом " + str(mode))
