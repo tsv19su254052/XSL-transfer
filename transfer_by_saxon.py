@@ -25,9 +25,13 @@ def main():
     with saxoncee.PySaxonProcessor(license=True) as Process_Saxon:
         Process_xslt = Process_Saxon.new_xslt30_processor()
         Process_Saxon.set_cwd(os.getcwd())
-        Output = Process_xslt.transform_to_string(source_file=config_from_cfg.get(section='FileNames', option='xml_input'),
-                                                  stylesheet_file=config_from_cfg.get(section='FileNames', option='xsl_filename'))
-        with open(file=config_from_cfg.get(section='FileNames', option='xml_output'), mode="w") as f:
+        Output = Process_xslt.transform_to_string(source_file=config_from_cfg.get(section='FileNames',
+                                                                                  option='xml_input'),
+                                                  stylesheet_file=config_from_cfg.get(section='FileNames',
+                                                                                      option='xsl_filename'))
+        with open(file=config_from_cfg.get(section='FileNames',
+                                           option='xml_output'),
+                  mode="w") as f:
             f.write(Output)
             print("Преобразование выполнено")
 
