@@ -14,6 +14,7 @@ import pytorch_accelerated
 import torch
 import turbo_alignment
 import ultralytics
+import tensorflow
 
 
 config_from_cfg = ConfigParser()
