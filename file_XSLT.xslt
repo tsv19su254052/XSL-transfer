@@ -9,12 +9,11 @@
                 version="3.0">
 
     <xsl:output method="xml" indent="yes"/>
-    <xsl:mode on-no-match="shallow-copy"/>
 
-    <xsl:template match="/*" mode="#all">
-        <xsl:copy>
-            <xsl:apply-templates select="@*, node()" mode="#current"/>
-        </xsl:copy>
+    <xsl:template match="/FlightsByRoutes">
+        <RootOne>
+            <xsl:apply-templates select="Route/"/>
+        </RootOne>
     </xsl:template>
 
 </xsl:stylesheet>
