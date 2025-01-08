@@ -1,13 +1,11 @@
-Работа с документо-ориентированными XML-ными файлами
+Работа с документо-ориентированными XML-ными файлами и XML-ными структурами данных
 ----
 
 Идея такая:
 
-Написать правила [XSLT](https://en.wikipedia.org/wiki/XSLT)-преобразования в файле `file_XSLT.xslt` 
-
-Вставить в файл `file_XML_input.xml` содержимое исходного XML
-
-Выполнить скрипт `transfer_by_saxon.py`. Другие скрипты пока в разработке.
+ - Вставляем в файл `file_XML_input.xml` содержимое исходного XML
+ - Пишем правила [XSLT](https://en.wikipedia.org/wiki/XSLT)-преобразования в файле `file_XSLT.xslt` 
+ - Выполняем скрипт `transfer_by_saxon.py`. Другие скрипты пока в разработке.
 
 Результат преобразования см. в файле `file_XML_output_by_saxon.xml` (при каждом преобразовании этот файл переписывается)
 
@@ -37,7 +35,7 @@ https://habr.com/ru/articles/22236/
 
 https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms256069(v=vs.100)?redirectedfrom=MSDN 
 
-Информация по нейросеткам
+Информация по нейросеткам:
 
 https://sysblok.ru/katalog-nejrosetevyh-modelej/ 
 
