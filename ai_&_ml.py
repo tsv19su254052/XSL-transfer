@@ -8,10 +8,14 @@ import openai
 import pytorch  # пока не ставится
 import pytorch_accelerated
 import torch
-import turbo_alignment  # на 3.12 не ставится
+import turbo_alignment  # на 3.12 пока не ставится
 import ultralytics
 import tensorflow
 import keras
+
+import tpm2_pytss
+import python_jose_TPM
+import PyTPM, pytpm2, pytpmutils
 
 
 config_from_cfg = ConfigParser()
