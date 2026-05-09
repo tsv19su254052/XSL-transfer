@@ -6,7 +6,7 @@ from configparser import ConfigParser
 import saxoncee  # Enterprise Edition (самая крутая и быстрая) oт Saxon-а (см. https://www.saxonica.com/saxon-c/index.xml )
 # есть также библиотеки
 #  - saxoncpe (Professional Edition),
-#  - saxonche (Home Edition) - O`Neil Prattler
+#  - saxonche (Home Edition)
 
 
 config_from_cfg = ConfigParser()
