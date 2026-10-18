@@ -1,4 +1,4 @@
-# Interpreter 3.8 (+) -> 3.9 (+) -> 3.10 (-) -> 3.11 (+-) -> 3.12 (+++) -> 3.13 (+) -> 3.14 (+)
+# Interpreters 3.8 (+) -> 3.9 (+) -> 3.10 (-) -> 3.11 (+-) -> 3.12 (+++ most suitable) -> 3.13 (+) -> 3.14, 3.14t (++, -) -> 3.15 (библиотеки не ставятся)
 
 import os
 from configparser import ConfigParser
